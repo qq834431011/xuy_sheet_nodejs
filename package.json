@@ -1,0 +1,20 @@
+{
+  "name": "xuysheet-server",
+  "version": "1.0.0",
+  "description": "XuY_Sheet 后端服务 - 接收前端表格数据并保存为 Excel 文件",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "vite build",
+    "build:plain": "vite build --mode plain"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "jszip": "^3.10.1"
+  },
+  "devDependencies": {
+    "vite": "^5.4.21",
+    "vite-plugin-obfuscator": "^1.0.5"
+  }
+}
